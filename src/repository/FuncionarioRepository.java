@@ -1,13 +1,12 @@
 package repository;
 
+import entities.Funcionario;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-
-import entities.Funcionario;
 
 // Esta classe cuida só de salvar e carregar os funcionários de um arquivo.
 // Cada funcionário vira uma linha no arquivo, assim:
@@ -73,5 +72,6 @@ public class FuncionarioRepository {
         } catch (IOException e) {
             throw new IllegalStateException("Não foi possível salvar no arquivo " + arquivo + ".");
         }
+        System.out.println();
     }
 }
