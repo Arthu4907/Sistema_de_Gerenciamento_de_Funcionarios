@@ -1,4 +1,4 @@
-# Sistema-de-Gerenciamento-de-Funcion-rios
+# Sistema-de-Gerenciamento-de-Funcionarios
 
 Desenvolvi um programa em Java que permite ao usuário cadastrar funcionários de uma empresa, armazenando informações como ID, nome e salário. O sistema também realiza o tratamento de IDs duplicados e de possíveis erros que possam ocorrer durante a execução.
 
